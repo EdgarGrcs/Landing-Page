@@ -7,24 +7,69 @@
     height: 100px;
     padding: 50px;
     display: flex;
+    
+    
 }
 
-.header {
-    display: inline;
+.header-logo {
 
-}
-
- .header-logo{
-
+    flex: 1;
+    border: 4px solid red;
+    margin-right: 200px;
+    margin-left: 100px;
     color: #F9FAF8;
     font-size: 24px;
-    margin: 10px;
+    align-self: flex-start;
+    
+
 }
 
 .header-link1 {
-
-    color: red;
+   
+    flex: 1;
+    border: 4px solid red;
+    align-self: flex-start;
+    
 }
+
+.header-link2 {
+   
+    flex: 1;
+    border: 4px solid red;
+    align-self: flex-start;
+}
+.header-link3 {
+    
+    flex: 1;
+    border: 4px solid red;
+    align-self: flex-start;
+    margin-right: 50px;
+   
+}
+
+
+.box-of-one {
+    display: flex;
+    border: 4px solid red;
+
+}
+
+.image-box {
+    display: flex;
+    border: 4px solid red;
+}
+
+.text-box-text{
+    flex: 1;
+    border: 4px solid red;
+
+}
+.sign-up {
+
+    flex: 1;
+    border: 4px solid red;
+}
+ 
 
 
 .box2 {
