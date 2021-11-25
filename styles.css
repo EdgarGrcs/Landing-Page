@@ -36,7 +36,7 @@ ul {
 }
 
 
-/* End of Navbar */
+/* Hero Section */
 
 .box1 {
     display: flex;
@@ -80,12 +80,15 @@ h1 {
 }
 
 .image-box {
-    width: 400px;
+    width: 350px;
     height: 250px;
     background-color: grey;
     border-radius: 8px;
     display: flex;
 }
+
+
+/* What we offer*/
 
 .box2 {
     background: white;
@@ -118,6 +121,9 @@ h1 {
     margin-top: -20px;
 }
 
+
+/* Quote */
+
 .box3 {
     background: #E5E7EB;
     display: flex;
@@ -131,6 +137,9 @@ h1 {
 .box3-text {
     margin: 100px;
 }
+
+
+/*Call to action*/
 
 .box4 {
     background: white;
@@ -148,9 +157,6 @@ h1 {
     border-radius: 5px;
     gap: 16px;
 }
-
-
-/* DOnt forget to add color effect from the youtube shorts video*/
 
 .call-to-action-box1 {
     display: block;
@@ -204,4 +210,5 @@ h1 {
 .copyright {
     color: white;
     margin: 20px;
+    font-family: arial;
 }
