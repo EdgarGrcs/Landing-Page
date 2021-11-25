@@ -1,118 +1,109 @@
-
 .flex-container {
-
-border: 2px solid red;
-
+    border: 2px solid red;
+    margin: -10px;
 }
+
+
+/* Navbar */
+
+nav {
+    display: flex;
+    background: #1F2937;
+    border: 2px solid red;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    color: grey;
+    display: flex;
+    margin-right: 5rem;
+    align-items: center;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    border: 2px solid red;
+    margin-right: auto;
+    margin-left: 8rem;
+}
+
+.header-link {
+    margin-right: 2rem;
+}
+
+
+/* End of Navbar */
 
 .box1 {
     background: #1F2937;
- 
     height: 100px;
     padding: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-   
-
 }
-
-.header {
-
-    border: 2px solid red;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    
-  
-}
-
-.header-logo {
-    display: flex;
-    color: #F9FAF8;
-    font-size: 24px;
-    
-    margin-left: 10rem;
-    margin-right: auto;
- 
-}
-
-ul {
-    
-  list-style:none;
-  
-  display: flex;
- color: grey;
- 
- margin-right: 10rem;
- gap: 15px;
-  
-}
-
-
-
-
-
 
 .box2 {
     background: white;
-    height: 100px;
-    padding: 50px;
+    height: 220px;
+    padding: 30px;
+    text-align: center;
+}
+
+.box-box {
     display: flex;
-  
+    text-align: center;
+    justify-content: center;
 }
 
-
-.block1 {
-
-    
+img {
+    width: 100px;
+    height: 100px;
 }
 
-
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
 
 .box3 {
     background: #E5E7EB;
-   
-    height: 100px;
-    padding: 50px;
     display: flex;
-
     color: #1F2937;
     font-size: 36px;
-    font-style:  italic;
+    font-style: italic;
     align-items: center;
-   
+    justify-content: center;
+}
+
+.box3-text {
+    margin: 100px;
 }
 
 .box4 {
     background: white;
-    
     height: 100px;
     padding: 50px;
     display: flex;
-    
 }
+
+
+/* Footer */
 
 .box5 {
     background: #1F2937;
-    
-    height: 10px;
-    padding: 50px;
-    
-    border: 2px solid red;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    
-
-    
-    
+    border: 2px solid red;
 }
 
 .copyright {
     color: grey;
-    
-   
-
+    margin: 20px;
 }
