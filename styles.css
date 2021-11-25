@@ -46,6 +46,46 @@ ul {
     justify-content: center;
 }
 
+.hero-box {
+    border: 2px solid red;
+    display: flex;
+}
+
+.hero-left-box {
+    border: 2px solid red;
+}
+
+.main-text {
+    display: flex;
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    display: flex;
+}
+
+.hero-sign-up {
+    border-radius: 5px;
+    color: white;
+    background-color: #3882F6;
+    margin: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.hero-right-box {
+    border: 2px solid red;
+}
+
+.hero-img {
+    height: 50px;
+    width: 60px;
+}
+
 .box2 {
     background: white;
     height: 220px;
@@ -104,7 +144,7 @@ ul {
 }
 
 
-/* DOnt forget to add color effect from the youtube shorts video ;)*/
+/* DOnt forget to add color effect from the youtube shorts video*/
 
 .call-to-action-box1 {
     display: block;
@@ -129,7 +169,7 @@ ul {
     display: flex;
 }
 
-button {
+.call-to-action-button {
     border: 2px solid white;
     border-radius: 5px;
     color: white;
@@ -149,7 +189,6 @@ button {
     display: flex;
     justify-content: center;
     text-align: center;
-    border: 2px solid red;
     padding: 5px;
 }
 
